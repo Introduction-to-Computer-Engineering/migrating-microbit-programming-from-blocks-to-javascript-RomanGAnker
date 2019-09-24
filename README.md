@@ -90,9 +90,11 @@ _**Note:** Add your program descriptions below._
 
 ### v0.1
 
-** v.01 is a simple JavaScript program that displays a character doing Jumping Jacks using LED icons. Activity_1.js **
+** v.01 is a simple JavaScript program that displays a character doing Jumping Jacks using LED lights. Activity_1.js **
 
 ### v0.2
+
+v.02 is a JavaScript program that uses the "B" button to initialize the second movement of the jumping jack action using LED lights. Activity_2.js
 
 **[etc.]**
 
