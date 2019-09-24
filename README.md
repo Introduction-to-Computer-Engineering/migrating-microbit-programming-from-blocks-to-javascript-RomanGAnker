@@ -96,6 +96,9 @@ _**Note:** Add your program descriptions below._
 
 v.02 is a JavaScript program that uses the "B" button to initialize the second movement of the jumping jack action using LED lights. Activity_2.js
 
+### v0.3
+v0.3 Is a small game that uses RNG to determine who wins, a player wins after getting a score of 2. Button AB will display current score.
+
 **[etc.]**
 
 ## Designs
