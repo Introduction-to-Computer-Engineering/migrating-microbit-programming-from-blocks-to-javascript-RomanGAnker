@@ -90,7 +90,7 @@ _**Note:** Add your program descriptions below._
 
 ### v0.1
 
-**[your description here, linking to the JavaScript [file](example.js)**]
+** v.01 is a simple JavaScript program that displays a character doing Jumping Jacks using LED icons. Activity_1.js **
 
 ### v0.2
 
