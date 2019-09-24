@@ -99,6 +99,9 @@ v.02 is a JavaScript program that uses the "B" button to initialize the second m
 ### v0.3
 v0.3 Is a small game that uses RNG to determine who wins, a player wins after getting a score of 2. Button AB will display current score.
 
+### v0.4
+v0.4 Is an alternate version of Rock, Paper, Scissors called "Bunny, Carrot, Gun". Shaking the Microbit will initialize one of the 3 potential options. 
+
 **[etc.]**
 
 ## Designs
