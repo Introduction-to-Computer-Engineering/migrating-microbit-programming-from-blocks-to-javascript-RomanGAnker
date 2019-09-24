@@ -1,4 +1,4 @@
-// Activity 2: Button Activated Jumping Jacks
+// Activity 2: Button Activated Jumping Jacks//
 input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.StickFigure)
 })
