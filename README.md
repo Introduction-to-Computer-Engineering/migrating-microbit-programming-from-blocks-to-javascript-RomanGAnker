@@ -114,15 +114,19 @@ _**Note:** Add your project designs below._
 
 #### Goal
 
-**[your short description]**
+To make an interactive game that allows the player to dodge LED lights to survive. 
 
 #### Design process
 
-**[your sketches, the things you tried, the questions you asked yourself, the answers, the sticking points, the iterations, the restarts, the final version]**
-
+** Struggles for Midterm Project: 
+1. Plotted LED light but could not get it to collide with my sprite.
+2. Difficulty creating a fluid control system of the player sprite
+3. Enemy sprite is traveling way too fast to avoid. 
+4. Player sprite moves very sporatically.
+5. Struggling with ending functions properly using {}.
 #### JS Constructs & objects
 
-**[which JavaScript features you used in the implementation of your project idea]**
+**Javascript code I utilized in my midterm project were: LED, button input, Strings, collision, game sprites, forever and on start functions, and pauses. 
 
 ### Final project
 
