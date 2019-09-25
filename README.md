@@ -102,6 +102,9 @@ v0.3 Is a small game that uses RNG to determine who wins, a player wins after ge
 ### v0.4
 v0.4 Is an alternate version of Rock, Paper, Scissors called "Bunny, Carrot, Gun". Shaking the Microbit will initialize one of the 3 potential options. 
 
+### v0.5
+v0.5 Utilizes plot points and LED lights to create a moving sprite across the Microbit. Can be a valuable asset in creating a game. 
+
 **[etc.]**
 
 ## Designs
