@@ -1,4 +1,4 @@
-// Small game which uses a score and RNG system//
+// Small game which uses a score and RNG system
 let Player_B = 0
 let Player_A = 0
 let Player_A_score = 0
