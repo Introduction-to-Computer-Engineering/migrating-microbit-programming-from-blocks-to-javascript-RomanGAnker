@@ -1,4 +1,4 @@
-// Alternate version of Rock, Paper, Scissors called Bunny, Carrot, Gun//
+// Alternate version of Rock, Paper, Scissors called Bunny, Carrot, Gun
 let Hand = 0
 let Winner = 0
 input.onGesture(Gesture.Shake, function () {
