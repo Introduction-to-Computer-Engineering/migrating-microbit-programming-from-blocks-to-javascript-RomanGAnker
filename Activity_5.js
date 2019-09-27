@@ -1,4 +1,4 @@
-// A traveling LED light that moves around the Microbit//
+// A traveling LED light that moves around the Microbit
 input.onButtonPressed(Button.A, function () {
     for (let i = 0; i < 1; i++) {
         sprite.move(4)
