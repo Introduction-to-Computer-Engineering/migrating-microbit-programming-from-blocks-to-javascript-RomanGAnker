@@ -152,4 +152,5 @@ To make an interactive game that allows the player to dodge LED lights to surviv
 
 ### Final project
 
-**[etc.]**
+**My Final Project is a game where the player must avoid contact with other LED sprites. If the player is hit, they will lose one HP. 
+Pressing "A" makes the player sprite move left horizontally and pressing "B" makes the player sprite move right horizontally. Pressing "A+B" resets the game. Some aspects of JavaScript I used to code this game were loops, basic functions, game functions, strings, sprites, score, LEDs and a few others. 
