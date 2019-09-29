@@ -90,7 +90,7 @@ _**Note:** Add your program descriptions below._
 
 ### v0.1
 
-** v.01 is a simple JavaScript program that displays a character doing Jumping Jacks using LED lights. Activity_1.js **
+v.01 is a simple JavaScript program that displays a character doing Jumping Jacks using LED lights. Activity_1.js **
 
 ### v0.2
 
@@ -128,7 +128,7 @@ v1.2 is a completed game where the player uses the "A" and "B" buttons to move a
 
 ## Designs
 
-_**Note:** Add your project designs below._
+
 Designing game framework: 
   1. Player must avoid LED sprites with a predictable path but travel very fast and awkwardly. (Game was too boring)
   2.  LED Sprite that travels across the top of the Microbit shooting sprites downward at a player sprite who can only move horizontally. (Ended up being too buggy and relatively boring).
