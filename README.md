@@ -105,7 +105,26 @@ v0.4 Is an alternate version of Rock, Paper, Scissors called "Bunny, Carrot, Gun
 ### v0.5
 v0.5 Utilizes plot points and LED lights to create a moving sprite across the Microbit. Can be a valuable asset in creating a game. 
 
-**[etc.]**
+### v0.6 
+v0.6 (MiniProject) is the early devlopment of a game where the player has to dodge LED lights to win
+
+## v0.7
+V0.7 is an activity where pressing "A" displays random LED points on the Microbit. Pressing "B" uses RNG to display either a happy or sad face. 
+
+## v0.8
+v0.8 Uses the "A" and "B" button to simulate the flipping of a coin.
+
+## v0.9
+v0.9 is an activity that converts decimals into simple Binary numbers. 
+
+## v1.0
+v1.0 is an activity that used Radio to communicate between Microbit devices. Pressing either "A" or "B" displays LED on the receiving Microbits display. 
+
+##1.1
+v1.1 Utilizes arrays, RNG and "for" functions to randomly display LED lights on the Microbit screen using the input of "A".
+
+## v1.2 
+v1.2 is a completed game where the player uses the "A" and "B" buttons to move a sprite in order to dodge LED lights. Surviving for 20 seconds makes the player win. The player sprite has an HP pool of 6 and dies when they run out. 
 
 ## Designs
 
