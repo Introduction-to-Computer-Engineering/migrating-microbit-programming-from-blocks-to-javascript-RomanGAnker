@@ -1,15 +1,21 @@
-// A small game where the player needs to avoid contact with the LED
+// A small game where the player needs to avoid
+// contact with the LED
 input.onButtonPressed(Button.A, function () {
     sprite.move(1)
     sprite.turn(Direction.Right, 0)
 })
 input.onButtonPressed(Button.B, function () {
     sprite.move(1)
-    sprite.turn(Direction.Left, 90)
+    sprite.turn(Direction.Left, Math.randomRange(0, 360))
 })
 let sprite: game.LedSprite = null
 sprite = game.createSprite(1, 5)
 let sprite_1 = game.createSprite(2, 2)
+basic.forever(function () {
+    if (sprite.isTouching(sprite_1)) {
+        basic.showString("Loser!")
+    }
+})
 basic.forever(function () {
     sprite_1.move(1)
     basic.pause(200)
@@ -17,9 +23,4 @@ basic.forever(function () {
     basic.pause(200)
     sprite_1.move(1)
     basic.pause(200)
-})
-basic.forever(function () {
-    if (sprite.isTouching(sprite_1)) {
-        basic.showString("Loser!")
-    }
 })
