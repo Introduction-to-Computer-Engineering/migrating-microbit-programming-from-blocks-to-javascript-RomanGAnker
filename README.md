@@ -97,42 +97,58 @@ _**Note:** Add your program descriptions below._
 v.02 is a JavaScript program that uses the "B" button to initialize the second movement of the jumping jack action using LED lights. Activity_2.js
 
 ### v0.3
-v0.3 Is a small game that uses RNG to determine who wins, a player wins after getting a score of 2. Button AB will display current score.
+v0.3 Is a small game that uses RNG to determine who wins, a player wins after getting a score of 2. Button AB will display current score. Activity_3.js
 
 ### v0.4
-v0.4 Is an alternate version of Rock, Paper, Scissors called "Bunny, Carrot, Gun". Shaking the Microbit will initialize one of the 3 potential options. 
+v0.4 Is an alternate version of Rock, Paper, Scissors called "Bunny, Carrot, Gun". Shaking the Microbit will initialize one of the 3 potential options. Activity_4.js
 
 ### v0.5
-v0.5 Utilizes plot points and LED lights to create a moving sprite across the Microbit. Can be a valuable asset in creating a game. 
+v0.5 Utilizes plot points and LED lights to create a moving sprite across the Microbit. Can be a valuable asset in creating a game. Activity_5.js
 
 ### v0.6 
-v0.6 (MiniProject) is the early devlopment of a game where the player has to dodge LED lights to win
+v0.6 (MiniProject) is the early devlopment of a game where the player has to dodge LED lights to win. MidtermProject.js
 
 ## v0.7
-V0.7 is an activity where pressing "A" displays random LED points on the Microbit. Pressing "B" uses RNG to display either a happy or sad face. 
+V0.7 is an activity where pressing "A" displays random LED points on the Microbit. Pressing "B" uses RNG to display either a happy or sad face. Activity_7.js
 
 ## v0.8
-v0.8 Uses the "A" and "B" button to simulate the flipping of a coin.
+v0.8 Uses the "A" and "B" button to simulate the flipping of a coin. Activity_8.js
 
 ## v0.9
-v0.9 is an activity that converts decimals into simple Binary numbers. 
+v0.9 is an activity that converts decimals into simple Binary numbers. Activity_9.js
 
 ## v1.0
-v1.0 is an activity that used Radio to communicate between Microbit devices. Pressing either "A" or "B" displays LED on the receiving Microbits display. 
+v1.0 is an activity that used Radio to communicate between Microbit devices. Pressing either "A" or "B" displays LED on the receiving Microbits display. Activity_10.js
 
-##1.1
-v1.1 Utilizes arrays, RNG and "for" functions to randomly display LED lights on the Microbit screen using the input of "A".
+## 1.1
+v1.1 Utilizes arrays, RNG and "for" functions to randomly display LED lights on the Microbit screen using the input of "A". Activity_11.js
 
 ## v1.2 
-v1.2 is a completed game where the player uses the "A" and "B" buttons to move a sprite in order to dodge LED lights. Surviving for 20 seconds makes the player win. The player sprite has an HP pool of 6 and dies when they run out. 
+v1.2 is a completed game where the player uses the "A" and "B" buttons to move a sprite in order to dodge LED lights. Surviving for 20 seconds makes the player win. The player sprite has an HP pool of 6 and dies when they run out. FinalProject.js
 
 ## Designs
 
 _**Note:** Add your project designs below._
+Designing game framework: 
+  1. Player must avoid LED sprites with a predictable path but travel very fast and awkwardly. (Game was too boring)
+  2.  LED Sprite that travels across the top of the Microbit shooting sprites downward at a player sprite who can only move horizontally. (Ended up being too buggy and relatively boring).
+  3. Player Sprite that needs to avoid enemy LED sprites (Player can move on X and Y axis) (Could not consistenly and smoothly implement X and Y movement).
+  4. Player sprites that move predictably around Microbit, but player can only move on X axis. (I decided adding an RNG factor would be more engaging)
+  5. Player sprite that can move along X access and enemy sprites that move using RNG directions at a relatively quick speed. (Ultimately ended up using this concept and decided to start developing the framework around this idea)
+  
+  Polishing:
+  1. I first needed to add a Health pool and a Game Over screen when the player was eliminated.
+  2. I edited the movement of the different sprites so that they were not too fast or too slow. 
+  3. I added a winning variable if the player survived for 20 seconds.
+  4. I had to alter the winning variable so that it would not display "Winner" even if the player lost. 
+  5. Lastly, I made the Winning screen more engaging so the player knew to press "A+B" to start a new game. 
+  
+   
+
 
 ### Midterm project
 
-_**Note:** Add your project designs below._
+_**Note:** My Midterm Project is a simple program that illustrates the framework around what my final project will be. It contains many of the concepts I intend to use on my final project, but not on the scale that I intend my final project to be. 
 
 #### Goal
 
